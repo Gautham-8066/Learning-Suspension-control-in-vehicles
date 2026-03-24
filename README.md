@@ -9,7 +9,7 @@ Sprung Mass: The heavy car body and passengers.
 
 Unsprung Mass: The wheel and tire.
 
-The Actuator (The Muscle): This is the "Active" part. It’s a hydraulic or electric motor placed parallel to the spring that can push or pull the car body instantly.
+The Actuator : This is the Active part. It’s a hydraulic or electric motor placed parallel to the spring that can push or pull the car body instantly.
 
 We describe the car's "state" at any microsecond using four variables: how much the suspension is stretched, how fast the body is moving, how much the tire is squished, and how fast the wheel is spinning.
 
