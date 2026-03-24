@@ -13,7 +13,7 @@ The Actuator : This is the Active part. It’s a hydraulic or electric motor pla
 
 We describe the car's "state" at any microsecond using four variables: how much the suspension is stretched, how fast the body is moving, how much the tire is squished, and how fast the wheel is spinning.
 
-The Linear Quadratic Regulator is an optimization algorithm. Imagine a scale. On one side is Passenger Comfort (keeping the body perfectly still). On the other is Road Holding (keeping the tire glued to the asphalt).So we tell what our priority is. Here we tell the LQR to prioritize the body staying still.
+The Linear Quadratic Regulator is an optimization algorithm. Imagine a scale. On one side is Passenger Comfort (keeping the body perfectly still). On the other is Road Holding.So we tell what our priority is. Here we tell the LQR to prioritize the body staying still.
 
 
 The plots show that the car body barely moved when hitting a massive bump. The cost is the wheel had to move much more violently. Because the body stayed still, the tire had to absorb the entire 8cm bump by itself.
